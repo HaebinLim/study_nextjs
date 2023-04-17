@@ -12,3 +12,14 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-color);
 }
+
+.title {
+  @apply my-[50px] text-center font-bold
+}
+.product-item {
+  @apply my-[20px] mx-auto p-[20px] w-[200px] rounded-[5px] text-black bg-white text-center
+}
+
+.cart-item {
+  @apply flex p-[10px] justify-around border-b border-gray-400
+}
